@@ -33,7 +33,8 @@ pub fn rock_paper_scissors_1() -> io::Result<()> {
             "C Z" => {score += 6},
             _ => unreachable!(),
         };
-        
+
+        println!("SCORE: {}", score);
     }
     Ok(())
 }
@@ -63,6 +64,8 @@ pub fn rock_paper_scissors_2() -> io::Result<()> {
             "C Z" => {score += 7},
             _ => unreachable!(),
         };
+
+        println!("SCORE: {}", score);
 
     }
     Ok(())
