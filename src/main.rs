@@ -1,8 +1,8 @@
 mod days;
 
 use std::io;
-use crate::days::{day_1::*, day_2::*};
+use crate::days::{day_1::*, day_2::*, day_3::*};
 
 fn main() -> io::Result<()> {
-    rock_paper_scissors_2()
+    rucksack_reorganization_2()
 }
